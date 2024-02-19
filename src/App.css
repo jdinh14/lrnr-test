@@ -1,0 +1,56 @@
+/* src/App.css */
+
+
+.card-hover-effect {
+  transition: transform 0.3s ease-in-out;
+}
+
+.card-hover-effect:hover {
+  transform: scale(1.05); /* Adjust scale value as needed */
+}
+
+.how-it-works-section {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 40px; 
+  padding: 8%;
+}
+
+
+
+
+
+/* Add additional styles as needed */
+
+#logocenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footfoot {
+  bottom: 0;
+  width: 100%;
+  margin-top: 80px;
+}
+
+
+.footfoot{
+  z-index: 1;
+  padding-top: 17rem;
+
+}
+
+
+
+
+
+
+/* Media queries */
+@media (max-width: 760px) {
+  .footfoot {
+   padding-top: 17%;
+    
+  }
+}
+
